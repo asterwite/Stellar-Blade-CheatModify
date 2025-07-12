@@ -2,4 +2,7 @@
 How do you use it? 
 You only need to use the CppSDK dumped by Dumper7 to move it to the CheatLoop folder and reference the file in the project
 
-#
+#[亲爱的 ImGui](https://github.com/ocornut/imgui)
+#[MinHook](https://github.com/TsudaKageyu/minhook)
+#[Dumper7](https://github.com/Encryqed/Dumper-7)
+#[https://github.com/DrNseven/D3D12-Hook-ImGui](https://github.com/DrNseven/D3D12-Hook-ImGui)
