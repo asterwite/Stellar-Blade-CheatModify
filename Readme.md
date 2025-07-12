@@ -14,6 +14,8 @@ You only need to use the CppSDK dumped by Dumper7 to move it to the CheatLoop fo
 
 I am not familiar with Git, so there may be some issues. Please forgive me.
 
+There may be a problem with the machine flipping, but I have no choice
+
 基于以下内容开发
 Developed based on the following content
 
