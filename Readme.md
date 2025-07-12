@@ -4,11 +4,15 @@
 
 你只需要使用Dumper7转储出来的CppSDK移动到CheatLoop文件夹下，并在项目中引用文件即可。
 
-This is a modification about Stellar Blade based on Dumper7 and ImGu
+我对于Git并不熟悉所有很多东西可能有些许问题，请见谅。
+
+This is a modification about Stellar Blade based on Dumper7 and ImGui
 
 How do you use it? 
 
 You only need to use the CppSDK dumped by Dumper7 to move it to the CheatLoop folder and reference the file in the project
+
+I am not familiar with Git, so there may be some issues. Please forgive me.
 
 基于以下内容开发
 Developed based on the following content
