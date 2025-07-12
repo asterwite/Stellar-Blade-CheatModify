@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CreatDx12">
+      <UniqueIdentifier>{157cd692-80e1-433e-a164-759004503527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreatDx12\ImGui">
+      <UniqueIdentifier>{38096ac4-23fc-4044-a586-7aa1df2aeeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreatDx12\MinHook">
+      <UniqueIdentifier>{662648f3-e4de-4208-8260-b7deadfd07ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop">
+      <UniqueIdentifier>{cb5e855f-fa58-48ee-8e3b-aadf0c20bd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\Cheat">
+      <UniqueIdentifier>{9dd6c406-73b6-48d7-b172-b537ab9bf452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\Config">
+      <UniqueIdentifier>{8f5e76bc-05da-422a-adb9-6fec164894e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\ConfigSet">
+      <UniqueIdentifier>{2ced2148-f573-48b6-9dd0-cdcccd4bcb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\ESP">
+      <UniqueIdentifier>{012d36bd-ddad-4cac-97c2-5a22d4d801f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\GameLoop">
+      <UniqueIdentifier>{468e4d77-66fb-4309-bbab-9606f89938ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\PeopleLoop">
+      <UniqueIdentifier>{a686af2c-ebc7-4817-935d-ecf65e17eca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\PlayerLoop">
+      <UniqueIdentifier>{1b75825d-ae8d-4809-a18f-106d650605f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\WeaponLoop">
+      <UniqueIdentifier>{4c531b4d-88e0-4e09-b18e-502bca77336e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\WorldLoop">
+      <UniqueIdentifier>{e366a177-be7b-4f2b-9369-7ead48771a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\CppSDK">
+      <UniqueIdentifier>{bb434ff0-4de4-49d2-a1cb-638f5a2be3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\CppSDK\SDK">
+      <UniqueIdentifier>{61a6ae7c-81b0-4cdb-b8d8-b92fa5473e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\ItemLoop">
+      <UniqueIdentifier>{94612912-d68a-493c-9dc7-524149efc84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\AnotherWindow">
+      <UniqueIdentifier>{6c291798-330e-4f7e-a85e-543c3f8ff14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\PlayerLoop\PlayerUI">
+      <UniqueIdentifier>{204fb189-1174-412f-a517-f714c12089c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\AnotherWindow\AnotherWindowUI">
+      <UniqueIdentifier>{c65d2f1d-6fe9-405b-b308-ec433aca08be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatLoop\AnotherWindow\AnotherWindowUI\NameForLoop">
+      <UniqueIdentifier>{79f559ba-4c4a-4089-bfb1-a4e517e32fd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreatDx12\ImGui\imgui_impl_dx12.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imgui_impl_win32.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imgui_internal.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imstb_rectpack.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imstb_textedit.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imstb_truetype.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imconfig.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\ImGui\imgui.h">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\include\MinHook.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\buffer.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\trampoline.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\hde32.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\hde64.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\pstdint.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\table32.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\table64.h">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Cheat\MyCheat.h">
+      <Filter>CheatLoop\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Cheat\Cheat.h">
+      <Filter>CheatLoop\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Cheat\CheatNeed.h">
+      <Filter>CheatLoop\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Config\CofigLoodNeed.h">
+      <Filter>CheatLoop\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ConfigSet\CofingSet.h">
+      <Filter>CheatLoop\ConfigSet</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ConfigSet\FPSUnlock.h">
+      <Filter>CheatLoop\ConfigSet</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ESP\ESPTEXT.h">
+      <Filter>CheatLoop\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ESP\Rader.h">
+      <Filter>CheatLoop\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ESP\ESP_DEBUG.h">
+      <Filter>CheatLoop\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\GameLoop\GameLoop.h">
+      <Filter>CheatLoop\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PeopleLoop\PeopleLoop.h">
+      <Filter>CheatLoop\PeopleLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerFly.h">
+      <Filter>CheatLoop\PlayerLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerLoop.h">
+      <Filter>CheatLoop\PlayerLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\WorldLoop\WorldLoop.h">
+      <Filter>CheatLoop\WorldLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Vector3.h">
+      <Filter>CheatLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\遍历.h">
+      <Filter>CheatLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Vec.h">
+      <Filter>CheatLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\WeaponLoop\MeleeWeaponLoop.h">
+      <Filter>CheatLoop\WeaponLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\WeaponLoop\WeaponLoop.h">
+      <Filter>CheatLoop\WeaponLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\WeaponLoop\GunWeaponLoop.h">
+      <Filter>CheatLoop\WeaponLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\Config\Config.h">
+      <Filter>CheatLoop\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ConfigSet\KeySet.h">
+      <Filter>CheatLoop\ConfigSet</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\WeaponLoop\ThrowLoop.h">
+      <Filter>CheatLoop\WeaponLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ItemLoop\ItemSpawnName.h">
+      <Filter>CheatLoop\ItemLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ItemLoop\ItemLoop.h">
+      <Filter>CheatLoop\ItemLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PlayerLoop\ModeName.h">
+      <Filter>CheatLoop\PlayerLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowLoop.h">
+      <Filter>CheatLoop\AnotherWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\ModleName.h">
+      <Filter>CheatLoop\AnotherWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerUI\PlayerAttribute.h">
+      <Filter>CheatLoop\PlayerLoop\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerUI\PlayerStatusClothing.h">
+      <Filter>CheatLoop\PlayerLoop\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerUI\PlayerScreenAndSettings.h">
+      <Filter>CheatLoop\PlayerLoop\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\HookManager\HookTrampoline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerWasBeHit.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\SpecialEffectsShow.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\WeaponLoop.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerAction.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerTalk.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\NameForLoop\TalkName.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI\NameForLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\QuickItemUse.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\NameForLoop\QuickItem.h">
+      <Filter>CheatLoop\AnotherWindow\AnotherWindowUI\NameForLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ItemLoop\ClothDesignSpawn.h">
+      <Filter>CheatLoop\ItemLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\ItemLoop\ClothDesignName.h">
+      <Filter>CheatLoop\ItemLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatLoop\CppSDK\SDK.hpp">
+      <Filter>CheatLoop\CppSDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CreatDx12\ImGui\imgui_demo.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\ImGui\imgui_draw.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\ImGui\imgui_impl_dx12.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\ImGui\imgui_impl_win32.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\ImGui\imgui_tables.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\ImGui\imgui_widgets.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\ImGui\imgui.cpp">
+      <Filter>CreatDx12\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\Minhook\src\hook.c">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\Minhook\src\trampoline.c">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\Minhook\src\buffer.c">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\Minhook\src\HDE\hde64.c">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatDx12\Minhook\src\HDE\hde32.c">
+      <Filter>CreatDx12\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatLoop\memory.cpp">
+      <Filter>CheatLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatLoop\CppSDK\SDK\Basic.cpp">
+      <Filter>CheatLoop\CppSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatLoop\CppSDK\SDK\Engine_functions.cpp">
+      <Filter>CheatLoop\CppSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatLoop\CppSDK\SDK\CoreUObject_functions.cpp">
+      <Filter>CheatLoop\CppSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatLoop\CppSDK\SDK\SB_functions.cpp">
+      <Filter>CheatLoop\CppSDK\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

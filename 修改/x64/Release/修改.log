@@ -1,0 +1,144 @@
+﻿  Basic.cpp
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,19): warning C4018: “<=”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,79): warning C4018: “>”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(937,2): warning C4369: “SDK::EObjectFlags::AllocatedInSharedPage”: 枚举数的值“2147483648”不能表示为“int”，值是“2147483648”
+  CoreUObject_functions.cpp
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,19): warning C4018: “<=”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,79): warning C4018: “>”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(937,2): warning C4369: “SDK::EObjectFlags::AllocatedInSharedPage”: 枚举数的值“2147483648”不能表示为“int”，值是“2147483648”
+  Engine_functions.cpp
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,19): warning C4018: “<=”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,79): warning C4018: “>”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(937,2): warning C4369: “SDK::EObjectFlags::AllocatedInSharedPage”: 枚举数的值“2147483648”不能表示为“int”，值是“2147483648”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4369: “SDK::ESkinCacheUsage::ESkinCacheUsage_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4369: “SDK::ESoundWaveLoadingBehavior::ESoundWaveLoadingBehavior_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+  SB_functions.cpp
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,19): warning C4018: “<=”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,79): warning C4018: “>”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(937,2): warning C4369: “SDK::EObjectFlags::AllocatedInSharedPage”: 枚举数的值“2147483648”不能表示为“int”，值是“2147483648”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4369: “SDK::ESkinCacheUsage::ESkinCacheUsage_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4369: “SDK::ESoundWaveLoadingBehavior::ESoundWaveLoadingBehavior_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SBAnimation_structs.hpp(109,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SBAnimation_structs.hpp(109,2): warning C4369: “SDK::ESBCharacterCustomAnim::ESBCharacterCustomAnim_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Niagara_structs.hpp(310,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Niagara_structs.hpp(310,2): warning C4369: “SDK::ENDISkeletalMesh_SkinningMode::ENDISkeletalMesh_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4429,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4429,2): warning C4369: “SDK::ESBQuestState::ESBState_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4561,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4561,2): warning C4369: “SDK::ESBConditionEventType::ESBCondition_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+  memory.cpp
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,19): warning C4018: “<=”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,79): warning C4018: “>”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(937,2): warning C4369: “SDK::EObjectFlags::AllocatedInSharedPage”: 枚举数的值“2147483648”不能表示为“int”，值是“2147483648”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4369: “SDK::ESkinCacheUsage::ESkinCacheUsage_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4369: “SDK::ESoundWaveLoadingBehavior::ESoundWaveLoadingBehavior_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SBAnimation_structs.hpp(109,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SBAnimation_structs.hpp(109,2): warning C4369: “SDK::ESBCharacterCustomAnim::ESBCharacterCustomAnim_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Niagara_structs.hpp(310,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Niagara_structs.hpp(310,2): warning C4369: “SDK::ENDISkeletalMesh_SkinningMode::ENDISkeletalMesh_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4429,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4429,2): warning C4369: “SDK::ESBQuestState::ESBState_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4561,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4561,2): warning C4369: “SDK::ESBConditionEventType::ESBCondition_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\HeadMountedDisplay_structs.hpp(72,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\HeadMountedDisplay_structs.hpp(72,2): warning C4369: “SDK::EXRTrackedDeviceType::EXRTrackedDeviceType_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx12.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  FileName.cpp
+  main.cpp
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(311,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::int32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4311: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”的指针截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(315,10): warning C4302: “reinterpret_cast”: 从“const UC::uint8 *”到“UC::uint32”截断
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,19): warning C4018: “<=”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(393,79): warning C4018: “>”: 有符号/无符号不匹配
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Basic.hpp(937,2): warning C4369: “SDK::EObjectFlags::AllocatedInSharedPage”: 枚举数的值“2147483648”不能表示为“int”，值是“2147483648”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4051,2): warning C4369: “SDK::ESkinCacheUsage::ESkinCacheUsage_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Engine_structs.hpp(4570,2): warning C4369: “SDK::ESoundWaveLoadingBehavior::ESoundWaveLoadingBehavior_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SBAnimation_structs.hpp(109,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SBAnimation_structs.hpp(109,2): warning C4369: “SDK::ESBCharacterCustomAnim::ESBCharacterCustomAnim_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Niagara_structs.hpp(310,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\Niagara_structs.hpp(310,2): warning C4369: “SDK::ENDISkeletalMesh_SkinningMode::ENDISkeletalMesh_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4429,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4429,2): warning C4369: “SDK::ESBQuestState::ESBState_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4561,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\SB_structs.hpp(4561,2): warning C4369: “SDK::ESBConditionEventType::ESBCondition_None”: 枚举数的值“-1”不能表示为“unsigned char”，值是“-1”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\HeadMountedDisplay_structs.hpp(72,2): warning C4309: “初始化”: 截断常量值
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\CppSDK\SDK\HeadMountedDisplay_structs.hpp(72,2): warning C4369: “SDK::EXRTrackedDeviceType::EXRTrackedDeviceType_MAX”: 枚举数的值“256”不能表示为“unsigned char”，值是“256”
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\PlayerLoop\PlayerFly.h(36,60): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\ESP\ESP_DEBUG.h(52,21): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(91,21): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(101,70): warning C4101: “BoneDraw6”: 未引用的局部变量
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(101,162): warning C4101: “BoneDraw14”: 未引用的局部变量
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(102,93): warning C4101: “BoneDraw22”: 未引用的局部变量
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(363,90): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(363,87): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(364,90): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(364,87): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(365,74): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(365,71): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(383,70): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(383,38): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(467,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(468,44): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\GameLoop\GameLoop.h(455,23): warning C4101: “outScreen”: 未引用的局部变量
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\WorldLoop\WorldLoop.h(200,1): warning C4091: “”: 没有声明变量时忽略“SDK::UListView”的左侧
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\WorldLoop\WorldLoop.h(201,1): warning C4091: “”: 没有声明变量时忽略“SDK::UWorldSubsystem”的左侧
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\WorldLoop\WorldLoop.h(202,1): warning C4091: “”: 没有声明变量时忽略“SDK::UKismetGuidLibrary”的左侧
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\PeopleLoop\PeopleLoop.h(32,18): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\ItemLoop\ClothDesignSpawn.h(270,51): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\ItemLoop\ItemLoop.h(328,42): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerAction.h(280,42): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerWasBeHit.h(270,42): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\AnotherWinodwLoop\AnotherWindowUI\SpecialEffectsShow.h(275,42): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerTalk.h(272,42): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\AnotherWinodwLoop\AnotherWindowUI\QuickItemUse.h(328,48): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\Cheat\MyCheat.h(24,1): warning C4091: “”: 没有声明变量时忽略“SDK::UAIBlueprintHelperLibrary”的左侧
+E:\vs相关\C++ UeCheat\剑星修改\修改\CheatLoop\Cheat\MyCheat.h(25,1): warning C4091: “”: 没有声明变量时忽略“SDK::AAIController”的左侧
+E:\vs相关\C++ UeCheat\剑星修改\修改\main.cpp(97,63): warning C4244: “=”: 从“uintx_t”转换到“UINT”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\main.cpp(117,63): warning C4244: “=”: 从“uintx_t”转换到“UINT”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\main.cpp(130,27): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+E:\vs相关\C++ UeCheat\剑星修改\修改\main.cpp(137,72): warning C4244: “参数”: 从“uintx_t”转换到“int”，可能丢失数据
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 3735 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  修改.vcxproj -> E:\vs相关\C++ UeCheat\剑星修改\x64\Release\修改.asi

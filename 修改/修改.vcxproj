@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1ea45f02-4edb-4a9f-afc6-326e4f4c78ac}</ProjectGuid>
+    <RootNamespace>修改</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.asi</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowLoop.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\NameForLoop\QuickItem.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\NameForLoop\TalkName.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerAction.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerTalk.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\PlayerWasBeHit.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\QuickItemUse.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\SpecialEffectsShow.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\AnotherWindowUI\WeaponLoop.h" />
+    <ClInclude Include="CheatLoop\AnotherWinodwLoop\ModleName.h" />
+    <ClInclude Include="CheatLoop\Cheat\Cheat.h" />
+    <ClInclude Include="CheatLoop\Cheat\CheatNeed.h" />
+    <ClInclude Include="CheatLoop\Cheat\MyCheat.h" />
+    <ClInclude Include="CheatLoop\ConfigSet\CofingSet.h" />
+    <ClInclude Include="CheatLoop\ConfigSet\FPSUnlock.h" />
+    <ClInclude Include="CheatLoop\ConfigSet\KeySet.h" />
+    <ClInclude Include="CheatLoop\Config\CofigLoodNeed.h" />
+    <ClInclude Include="CheatLoop\Config\Config.h" />
+    <ClInclude Include="CheatLoop\CppSDK\SDK.hpp" />
+    <ClInclude Include="CheatLoop\ESP\ESPTEXT.h" />
+    <ClInclude Include="CheatLoop\ESP\ESP_DEBUG.h" />
+    <ClInclude Include="CheatLoop\ESP\Rader.h" />
+    <ClInclude Include="CheatLoop\GameLoop\GameLoop.h" />
+    <ClInclude Include="CheatLoop\HookManager\HookTrampoline.h" />
+    <ClInclude Include="CheatLoop\ItemLoop\ClothDesignName.h" />
+    <ClInclude Include="CheatLoop\ItemLoop\ClothDesignSpawn.h" />
+    <ClInclude Include="CheatLoop\ItemLoop\ItemLoop.h" />
+    <ClInclude Include="CheatLoop\ItemLoop\ItemSpawnName.h" />
+    <ClInclude Include="CheatLoop\PeopleLoop\PeopleLoop.h" />
+    <ClInclude Include="CheatLoop\PlayerLoop\ModeName.h" />
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerFly.h" />
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerLoop.h" />
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerUI\PlayerAttribute.h" />
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerUI\PlayerScreenAndSettings.h" />
+    <ClInclude Include="CheatLoop\PlayerLoop\PlayerUI\PlayerStatusClothing.h" />
+    <ClInclude Include="CheatLoop\Vec.h" />
+    <ClInclude Include="CheatLoop\Vector3.h" />
+    <ClInclude Include="CheatLoop\WeaponLoop\GunWeaponLoop.h" />
+    <ClInclude Include="CheatLoop\WeaponLoop\MeleeWeaponLoop.h" />
+    <ClInclude Include="CheatLoop\WeaponLoop\ThrowLoop.h" />
+    <ClInclude Include="CheatLoop\WeaponLoop\WeaponLoop.h" />
+    <ClInclude Include="CheatLoop\WorldLoop\WorldLoop.h" />
+    <ClInclude Include="CheatLoop\遍历.h" />
+    <ClInclude Include="CreatDx12\ImGui\imconfig.h" />
+    <ClInclude Include="CreatDx12\ImGui\imgui.h" />
+    <ClInclude Include="CreatDx12\ImGui\imgui_impl_dx12.h" />
+    <ClInclude Include="CreatDx12\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="CreatDx12\ImGui\imgui_internal.h" />
+    <ClInclude Include="CreatDx12\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="CreatDx12\ImGui\imstb_textedit.h" />
+    <ClInclude Include="CreatDx12\ImGui\imstb_truetype.h" />
+    <ClInclude Include="CreatDx12\Minhook\include\MinHook.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\buffer.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\hde32.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\hde64.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\pstdint.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\table32.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\HDE\table64.h" />
+    <ClInclude Include="CreatDx12\Minhook\src\trampoline.h" />
+    <ClInclude Include="Drawing.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CheatLoop\CppSDK\SDK\Basic.cpp" />
+    <ClCompile Include="CheatLoop\CppSDK\SDK\CoreUObject_functions.cpp" />
+    <ClCompile Include="CheatLoop\CppSDK\SDK\Engine_functions.cpp" />
+    <ClCompile Include="CheatLoop\CppSDK\SDK\SB_functions.cpp" />
+    <ClCompile Include="CheatLoop\memory.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="CreatDx12\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="CreatDx12\Minhook\src\buffer.c" />
+    <ClCompile Include="CreatDx12\Minhook\src\HDE\hde32.c" />
+    <ClCompile Include="CreatDx12\Minhook\src\HDE\hde64.c" />
+    <ClCompile Include="CreatDx12\Minhook\src\hook.c" />
+    <ClCompile Include="CreatDx12\Minhook\src\trampoline.c" />
+    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
