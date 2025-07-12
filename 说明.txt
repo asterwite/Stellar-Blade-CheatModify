@@ -1,0 +1,5 @@
+你只需要使用Dumper7转储出来的CppSDK移动到CheatLoop文件夹下，并在项目中引用文件即可。
+How do you use it? 
+You only need to use the CppSDK dumped by Dumper7 to move it to the CheatLoop folder and reference the file in the project
+
+#
