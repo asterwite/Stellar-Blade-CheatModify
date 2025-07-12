@@ -25,5 +25,5 @@ Developed based on the following content
 
 #[Dumper7](https://github.com/Encryqed/Dumper-7)
 
-#[https://github.com/DrNseven/D3D12-Hook-ImGui](https://github.com/DrNseven/D3D12-Hook-ImGui)
+#[D3D12-Hook-ImGui](https://github.com/DrNseven/D3D12-Hook-ImGui)
 
