@@ -10,7 +10,8 @@ How do you use it?
 
 You only need to use the CppSDK dumped by Dumper7 to move it to the CheatLoop folder and reference the file in the project
 
-
+基于以下内容开发
+Developed based on the following content
 
 #[亲爱的 ImGui](https://github.com/ocornut/imgui)
 
